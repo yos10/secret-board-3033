@@ -26,3 +26,20 @@ https://github.com/sequelize/sequelize/pull/10025
 Can't use SSL with Postgres · Issue #956 · sequelize/sequelize · GitHub
 
 https://github.com/sequelize/sequelize/issues/956#issuecomment-147745033
+
+---
+
+Heroku のヘルプに 
+
+> Postgres 接続で ​sslmode=require​ パラメータを設定する必要がある場合もあります。
+
+と書いてあるので、その設定ができる方法であれば何でもいいんでしょうね。
+
+Heroku Postgres | Heroku Dev Center
+https://devcenter.heroku.com/ja/articles/heroku-postgresql#heroku-postgres-ssl
+
+
+フォーラムにあった方法
+https://www.nnn.ed.nico/questions/21540
+
+https://www.postgresql.jp/document/8.1/html/libpq-envars.html

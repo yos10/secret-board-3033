@@ -38,8 +38,13 @@ Heroku のヘルプに
 Heroku Postgres | Heroku Dev Center
 https://devcenter.heroku.com/ja/articles/heroku-postgresql#heroku-postgres-ssl
 
-
 フォーラムにあった方法
 https://www.nnn.ed.nico/questions/21540
 
 https://www.postgresql.jp/document/8.1/html/libpq-envars.html
+
+---
+
+[Reactチュートリアル2：レビューサイトを作ろう](https://zenn.dev/likr/articles/react-with-heroku#heroku-%E3%81%AB%E3%82%88%E3%82%8B-api-%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E5%85%AC%E9%96%8B) で Heroku に公開するときにつまずいたから dialectOptions 書く方法がいいかも。
+
+self signed certificate みたいなエラーが出たら先のサイトの[コメント](https://zenn.dev/likr/articles/react-with-heroku#comment-124752648678bb)にあるように rejectUnauthorized: false を追加。
